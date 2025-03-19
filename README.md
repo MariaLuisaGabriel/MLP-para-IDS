@@ -12,6 +12,6 @@ Para medir a taxa de acertos, usamos três métricas: matriz de confusão, acur�
 
 Para tentar melhorar a taxa do MLP2 feito no artigo, implementamos um MLP2 nosso com a base do sklearn da linguagem Python, e começamos a brincar com as especificações da rede, variando a taxa de aprendizado, a função de ativação, o número de neurônios por camada e por fim o número de camadas escondidas.
 
-Finalmente, conseguimos gerar um MLP com maior taxa de acertos (de forma bem distribuída) que o MLP2 do artigo, com um multilayer perceptron de 3 camadas, com 32, 16 e 16 neurônios nas camadas escondidas, respectivamente, com taxa de aprendizado 0.01 e função logística de ativação.
+Finalmente, conseguimos gerar um MLP com maior taxa de acertos (de forma bem distribuída) que o MLP2 do artigo, com um multilayer perceptron de 5 camadas, com 32, 16 e 16 neurônios nas três camadas escondidas, respectivamente, com taxa de aprendizado 0.01 e função logística de ativação.
 
 ![image](https://github.com/user-attachments/assets/00c2ab9e-1042-476b-bfa0-902da8e61cfd)
